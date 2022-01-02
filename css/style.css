@@ -1,0 +1,1150 @@
+ /*     font-family: 'Hind', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif; */
+/* All common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All common css end */
+
+/* -- ============== Menu part start======== */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.bg{
+    background: #ffffff;
+    padding: 18px 0;
+   border-bottom: 2px solid #ee901d;
+    animation: menu 1s;
+    -webkit-animation: menu 1s;
+}
+@keyframes menu{
+    from{
+        top: -100px
+    }
+    to{
+        top:0px
+    }
+}
+
+.nav-item .nav-link{
+    color: #282828;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .4s;
+    margin-left: 20px;
+}
+.navbar-toggler i{
+    color: #282828;
+}
+.navbar-nav .nav-link:hover{
+    color:#ee901d ;
+}
+.say_button{
+    margin-left: 50px;
+}
+.say_button a{
+    padding: 8px 30px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    background: #f7ca88;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition: all linear .4s;
+}
+.say_button a:hover{
+    background:#ee901d ;
+}
+/* -- ============== Menu part end======== */
+
+
+/* -- ============== banner part start======== */
+
+
+#banner{
+    position: relative;
+}
+
+.bannerslide{
+    position: absolute;
+    width: 100%;
+}
+
+.ban_overly{
+    padding-top: 340px;
+    padding-bottom: 315px;
+    background: rgba(255, 255, 255, 0.705);
+}
+
+.ban_img_one{
+    background: url(../images/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ban_img_two{
+    background: url(../images/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ban_img_three{
+    background: url(../images/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ban_img_four{
+    background: url(../images/banner-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ban_img_five{
+    background: url(../images/banner-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ban_img_six{
+    background: url(../images/banner-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ban_texts{
+    padding-top: 150px;
+    padding-bottom: 160px;
+}
+.ban_texts h3{
+
+    color: #282828;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.ban_coll i {
+	color: #c97106;
+	font-size: 28px;
+	margin-right: 20px;
+}
+.ban_coll h4{
+    color: #282828;
+    font-size: 16px;
+    font-weight:400 ;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+.ban_coll p {
+	color: #282828;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+.s_button a{
+    color: #282828;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 2px solid #f7ca88;
+    background: #ffffff;
+    margin-top: 14px;
+    transition: all linear .4s ;
+    -webkit-transition: all linear .4s ;
+    -moz-transition: all linear .4s ;
+    -ms-transition: all linear .4s ;
+    -o-transition: all linear .4s ;
+}
+.s_button a:hover{
+    background: #f7ca88;
+}
+
+/* -- ============== banner part end======== */
+
+
+/* -- ============== Our project part start======== */
+#our_product{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #ffffff;
+    overflow: hidden;
+}
+.product_head{
+    padding-bottom: 80px;
+    display: inline-block;
+}
+.product_head h3{
+    color: #282828;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.product_head h3::before{
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    height: 1px;
+    width: 50px;
+    background: #f7ca88;
+    content: '';
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.product_head h3::after{
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    height: 1px;
+    width: 50px;
+    background: #f7ca88;
+    content: '';
+    transform: translate(50%, -50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+}
+
+.t_shirt_item{
+    border: 1px solid #c4c2c2;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.ts_image{
+    position: relative;
+    line-height: 0;
+}
+.ts_image img{
+    width: 100%;
+    height: 450px;
+    
+}
+.ts_overly{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: rgba(40, 40, 40, 0.557);
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.t_shirt_item:hover .ts_overly{
+    opacity: 1;
+    height: 100%;
+}
+.ts_icon{
+    margin-top: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.ts_icon i{
+    color: #ffffff;
+    font-size: 20px;
+    transition: all linear .4s;
+
+}
+.ts_icon i:hover{
+color: #f7ca88;
+}
+
+.t_shirt_item:hover .ts_icon{
+    margin-top: 60%;
+}
+
+
+.ts_texts{
+    border-top: 1px solid #c4c2c2;
+    padding: 15px 20px;
+    background: #ffffff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.ts_text_l{
+    display: inline-block;
+    margin-right: 160px;
+}
+.ts_text_l h3{
+    color: #282828;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.ts_text_r h3 {
+	color: #f7ca88;
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	padding-top: 13px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.ts_text_r{
+    display: inline-block;
+}
+.t_shirt_item:hover .ts_texts{
+    background: #73562a;
+    border-top: 1px solid #73562a;
+}
+
+.t_shirt_item:hover .ts_text_l h3{
+    color: #ffffff;
+}
+
+.t_shirt_item:hover .ts_text_r h3{
+    color: #ffc400;
+}
+
+.buttonss a {
+	padding: 12px 30px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 600;
+	background: #d8ab6a;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	transition: all linear .4s;
+}
+.buttonss a:hover{
+    background: #f7ca88;
+}
+/* -- ============== Our project part end======== */
+
+/*========================================================================*/
+
+/* ============== One part start======== */
+#one{
+    background: #f8f8f8;
+    overflow: hidden;
+}
+.one_big_img img{
+    width: 100%;
+}
+.one_texts {
+	padding-top: 60px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+}
+
+.one_texts h3{
+    color: #282828;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 55px;
+}
+.one_texts h3::before {
+	position: absolute;
+	top: 46px;
+	left: 0px;
+	height: 2px;
+	width: 60px;
+	background: #f7ca88;
+	content: '';
+	display: inline-block;
+}
+.one_texts p{
+    color: #c2c2c2;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Hind', sans-serif;
+    font-weight:300;
+    padding-bottom: 35px;
+   
+}
+/* ============== One part end======== */
+/* ---================================================================  */
+
+/* -- ============== 60% sale part start======== */
+#sale{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: #ffffff;
+    overflow: hidden;
+
+}
+.sale_item .ts_texts .ts_text_l {
+	margin-right: 140px;
+    }
+.saleprev{
+    font-size: 30px;
+    color: #c17f04;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 16px;
+    z-index: 999;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.saleprev:hover{
+    color: #ffc400;
+}
+
+.salenext{
+    font-size: 30px;
+    color: #c17f04;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.salenext:hover{
+    color: #ffc400;
+}
+
+.sale_percent_text p {
+	color: #282828;
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 90px;
+	padding: 120px 100px;
+}
+
+
+/* -- ============== 60% sale part end======== */
+/* -- ==================================================================  */
+
+/* -- ============== Hand bangs part start======== */
+#bags{
+    position: relative;
+    overflow: hidden;
+
+}
+.bag_bannerslide{
+    position: absolute;
+    width: 100%;
+}
+
+.bag_overly{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: rgba(0, 0, 0, 0.705);
+}
+
+.bag_bg_img_one{
+    background: url(../images/bag-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bag_bg_img_two{
+    background: url(../images/bag-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bag_bg_img_three{
+    background: url(../images/bag-banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bag_bg_img_four{
+    background: url(../images/bag-banner-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.bag_texts {
+	padding-top: 190px;
+	padding-bottom: 150px;
+}
+.bag_texts h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 80px;
+}
+.bag_texts h3::before{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    height: 2px;
+    width: 60px;
+    background: #f7ca88;
+    content: '';
+    display: inline-block;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.bag_texts p {
+	color: #ffffff;
+	font-size: 16px;
+    line-height: 28px;
+    font-family: 'Hind', sans-serif;
+    font-weight:300;
+    padding-bottom: 50px;
+}
+/* .slide_dots{
+    font-size: 30px;
+    color: #c17f04;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    z-index: 9999999;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+
+} */
+
+/* -- ============== Hand bangs part end======== */
+/* -- ================================================================  */
+
+/* -- ============== product details part start======== */
+#prdct_details{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #ffffff;
+    overflow: hidden;
+
+}
+.one_product_details{
+    padding-bottom: 50px;
+}
+.prod_img{
+    border: 1px solid #c4c2c2;
+}
+.prod_img img{
+    width: 100%;
+}
+.prod_texts{
+    border: 1px solid #c4c2c2;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.prod_up_text {
+	border-bottom: 1px solid #c4c2c2;
+	padding: 20px 150px 30px 40px;
+}
+.prod_up_text h3{
+    color: #282828;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.prod_up_text h4{
+    color: #f7ca88;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.prod_up_text p {
+	color: #282828;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+}
+.prod_down_text {
+	padding: 50px 150px 20px 40px;
+}
+
+.prod_down_text span{
+    color: #f7ca88;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.prod_down_text h4{
+    color: #282828;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300px;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.prod_down_text h3 {
+	color: #282828;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-top: 14px;
+}
+
+.prod_down_text p {
+	color: #282828;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+/* -- ============== product details part end======== */
+/* -- =================================================================  */
+
+/* -- ============== Two part start======== */
+#two{
+    background: #f8f8f8;
+    overflow: hidden;
+
+}
+.two_items .one_texts {
+	padding-right: 150px;
+	padding-left: 0px;
+}
+/* -- ============== Two part end======== */
+
+
+
+/* -- =================================================================  */
+
+/* -- ============== CounterUp part start======== */
+#counterup{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(to right, #976211, #f7ca88);
+    overflow: hidden;
+
+}
+.count_item_text h3 {
+	color: #ffffff;
+	font-size: 44px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+.count_item_text p{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+/* -- ============== CounterUp part end======== */
+
+/* --==========================================================*/
+
+/* -- ============== Blog part start======== */
+#blog{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background: #f8f8f8;
+    overflow: hidden;
+
+}
+.blog_texts .bag_texts{
+    padding: 0;
+}
+.blog_texts .bag_texts h3{
+    color: #282828;
+}
+.blog_texts .bag_texts p{
+    color: #c2c2c2;
+}
+.blog_item{
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.blo_item_img img{
+    width: 100%;
+    height: 340px;
+}
+.blog_item_texts{
+    background: #ffffff;
+    border: 1px solid #c2c2c2;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.blog_item_texts h3{
+    color: #282828;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.blog_item_texts p{
+    color: #c2c2c2;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.blog_item:hover .blog_item_texts{
+    background: #d8ab6a;
+    border-top: 1px solid #d8ab6a;
+    
+}
+.blog_item:hover .blog_item_texts p{
+    color: #ffffff;
+}
+
+.blog_down_texts .bag_texts{
+    padding: 0;
+}
+
+.blog_down_texts .bag_texts p{
+    color: #c2c2c2;
+    padding-top: 20px;
+}
+/* -- ============== Blog part end======== */
+
+/* --==========================================================*/
+
+/* -- ============== Buy part start======== */
+#buy{
+    background: url(../images/buy-now.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+.buy_overly{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: rgba(0, 0, 0, 0.705);
+}
+.buy_head h3 {
+	color: #ffffff;
+	font-size: 42px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 65px;
+}
+.buy_head p {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 35px;
+	padding-bottom: 70px;
+}
+.buy_head .buttonss a{
+    background: #ffffff;
+    color: #53346d;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+} 
+.buy_head .buttonss a:hover{
+    background: #53346d;
+    color: #ffffff;
+}
+/* -- ============== Buy part end======== */
+
+/* --==========================================================*/
+
+/* -- ============== Pricing Table part start======== */
+#pricing_table{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #ffffff;
+    border-bottom: 2px solid #c2c2c2;
+    overflow: hidden;
+
+}
+.table_item{
+    cursor: pointer;
+}
+.table_item_head h3{
+    color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background: #d8ab6a;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+
+}
+.table_item_mid{
+    line-height: 0;
+    position: relative;
+}
+.table_item_mid img{
+    width: 100%; 
+    height: 400px;
+}
+.table_item_overly{
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.table_item:hover .table_item_overly{
+    opacity: 1;
+    height:100% ;
+}
+
+.table_item_overly h3 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #282828;
+	font-size: 46px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.table_item_overly span{
+	font-size: 25px;
+}
+
+.table_item_overly p {
+	padding-bottom: 50px;
+	color: #282828;
+	font-size: 24px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.table_item_button{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #706f6e;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.table_item:hover .table_item_head h3{
+    background: #facf8e;
+}
+.table_item:hover .table_item_button{
+    background: #a7a2a2;
+}
+/* Slick center */
+
+.slick-center .table_item .table_item_overly{
+    opacity: 1;
+    height: 100%;
+}
+.slick-center .table_item:hover .table_item_overly{
+    opacity: 0;
+    height: 0;
+}
+
+.slick-center .table_item .table_item_head h3{
+    background: #facf8e;
+}
+
+.slick-center .table_item .table_item_button{
+    background: #a7a2a2;
+}
+
+
+/* Slick center */
+
+
+
+/* -- ============== Pricing Table part end======== */
+
+/* --==========================================================*/
+
+/* -- ============== About and Contact part start======== */
+#abt_cntct{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #ffffff;
+    overflow: hidden;
+
+}
+.about_head h3 {
+	color: #322f3b;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.about_head p {
+	color: #b3b2b2;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+	padding-top: 30px;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	padding-right: 65px;
+}
+.about_icons a {
+    color: #c5c5c5;
+    font-size: 24px;
+    margin-right: 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.about_icons a:hover{
+    color: orange;
+}
+.cntct_info p{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.cntct_info a{
+    color: #ff9c07;
+}
+/* -- ============== About and Contact part end======== */
+
+
+
+/* --==========================================================*/
+
+/* -- ============== Footer top texts part start======== */
+#lorem_texts{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: #f7ca88;
+    overflow: hidden;
+
+}
+.lrm_texts p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	line-height: 26px;
+    letter-spacing: 2px;
+}
+/* -- ============== Footer top texts part end======== */
+
+
+
+/* --==========================================================*/
+
+/* -- ============== Footer top images part start======== */
+#foot_images{
+    overflow: hidden;
+
+}
+.foot_img_item{
+    width: 25%;
+}
+.foot_img_item img{
+    width: 100%;
+   height: 220px;
+}
+/* -- ============== Footer top images part end======== */
+
+
+
+
+/* --==========================================================*/
+
+/* -- ============== Footer part start======== */
+#foot{
+padding-top: 30px;
+padding-bottom: 30px;
+background: #1e1e1e;
+overflow: hidden;
+
+}
+
+.foot_l i{
+    color: #ffffff;
+	font-size: 16px;
+	margin-right: 10px;
+    transition: all linear .4s;
+    
+}
+.foot_l h3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.foot_l a:hover h3{
+    color: #0099ff;
+}
+.foot_l a:hover i{
+    color: #0099ff;
+}
+
+
+.foot_r h3{
+    color: #ffffff;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+    transition: all linear .4s;
+}
+.foot_r h3:hover{
+    color: #ffc400;
+}
+/* -- ============== Footer part end======== */
+
+
+
